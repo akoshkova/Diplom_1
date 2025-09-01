@@ -4,11 +4,6 @@ from bun import Bun
 from ingredient import Ingredient
 
 @pytest.fixture
-def burger():
-    return Burger()
-
-
-@pytest.fixture
 def test_bun():
     return Bun("test_bun", 100)
 
